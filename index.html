@@ -39,32 +39,74 @@
         <ul></ul>
       </nav>
       <section>
-        <h3>Welcome to GitHub Pages.</h3>
+        <p>PERMAINAN SUDOKU
+Sudoku berasal dari bahasa Jepang, “数字は独身に限る/ suuji wa dokushin di kagiru”. 数字/ suuji berarti angka, 独身/ dokushin berarti tunggal, 限る/ kagiru berarti membatasi, sedangkan ada imbuhan ni di depannya, sehingga に限る/ ni kagiru berarti dibatasi. Artinya secara keseluruhan adalah : Angka dibatasi harus tunggal.
+Sudoku adalah permainan penempatan angka berbasis logika. Papan permainan berbentuk kumpulan grid (nb, ada juga yang menyebutnya kotak) 9×9. Berikut ini contoh permainan sudoku (catatan : untuk tingkat pemula).</p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>Contoh Sudoku</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p>Pada papan permainan yang berukuran 9×9 grid, dikelompokkan menjadi baris, kolom, dan region 3×3 (ada juga yang menyebut blok). Baris terdiri dari baris ke-1 sampai dengan baris ke-9, demikian juga kolom dan region. Perhatikan gambar di atas, garis-garis tebal memisahkan antar region.
+Konsep permainannya adalah angka dibatasi hanya muncul sekali. Angka yang digunakan adalah 1 sampai 9. Artinya, pada setiap baris, kolom, maupun region hanya dimungkinkan setiap angka muncul sekali tanpa perulangan, dan artinya juga, setiap angka harus muncul pada setiap baris, kolom dan region.
+Terakhir, yang juga menjadi dasar permainan sudoku, adalah bahwa setiap soal sudoku hanya memiliki satu penyelesaian tunggal. Ini yang menentukan apakah sebuah soal sudoku valid atau tidak. Kemudian sebagai tambahan, soal-soal sudoku selama ini adalah hand-made, simetris dan indah dilihat. Ini yang masih menjadi problem tersendiri bagi programmer2 sudoku</p>
+
+<p>Sejarah Permainan Sudoku
+Permainan seperti sudoku sudah dikenal sejak tahun 1979 di majalah Dell Magazines dengan nama "Number Place". Permainan ini didesain oleh Howard Grans. Permainan ini dikenal di Jepang pada tahun 1984, dimuat di Majalah Bulanan Nikoli, dengan nama "Suuji Wa Dokushin Kagiru". Selanjutnya puzzle ini dikenal sebagai Su-Doku (orang Jepang memang biasa menyingkat nama). Tahun 1986, Nikoli membuat aturan baru dalam permainan Sudoku, yaitu :
+1. Nomor yang disertakan dalam soal tidak boleh lebih dari 32 buah.
+2. Soal harus simetris.</p>
+
+<p>Tahun 2004, permainan ini mulai dikenalkan di Inggris, dan diterbitkan pertama kali di The Times, 12 November 2004, tetap menggunakan nama Sudoku.</p>
+
+<p>Sejak saat itu permainan Sudoku menjadi mendunia dan menjadi booming di mana-mana. Sayang sekali, Howard Grans sebagai penemunya tidak sempat melihat populernya permainan ini, karena ia sudah meninggal sejak tahun 1989. (Wikipedia)</p>
+
+<p>Lebih lengkapnya perhatikan sejarah sudoku dibawah ini, meskipun ada beberapa versi sejarah sudoku, kali ini akan saya sajikan sejarah sudoku dari beberapa sumber yang menurut saya paling valid.</p>
+
+<p>Nikoli, sebuah penerbit di Jepang, menyatakan Sudoku sebenarnya penyederhanaan kalimat bahasa Jepang "Suuji wa dokushin ni kagiru," yang berarti "terbatas hanya angka tunggal", sedangkan SU berarti angka dan DOKU berarti tunggal.</p>
+
+<p>Nikoli pertama kali melihatnya di majalah Amerika, Dell Puzzle Magazines, sebutannya "Number Place". Puzzle Number Place ini hasil karya seorang arsitek, Howard Garns, di tahun 1979, terinspirasi oleh "Latin Square", sebuah konsep matematika temuan Leonard Eulers, warga Swiss pada tahun 1783.</p>
+
+<p>Sejak 1984 Nikoli menerbitkan Sudoku. Tidak ada sambutan berarti. Dua tahun kemudian aturannya diubah lebih menantang: Susunan angka harus memiliki pola-pola simetris. Dan sudoku pun menjadi hit. Total sirkulasi lima majalah Sudoku di Jepang mencapai 600.000 setiap bulan. Kemudian pada 1997, seorang warga Inggris, pensiunan hakim Hongkong, Wayne Gould , membeli buku-buku Sudoku di Tokyo. Disusunnya sebuah program untuk mengeluarkan soal-soal sudoku secara instan. Dan berhasil diselesaikannya pada tahun 2003.</p>
+
+<p>Dua puluh tahun sejak istilah Sudoku lahir di Jepang, 25 tahun setelah permainan Number Place lahir di Amerika, Wayne Gould berhasil membujuk koran Inggris The Times, untuk memuatnya sekitar November 2004. Tiga hari kemudian, The Daily Mailmengikuti jejak rekannya.</p>
+
+<p>Sudoku mulai mewabah di Inggris. The Telegraph mencoba menyajikan sudoku produknya sendiri di awal tahun 2005, produsernya sampai kewalahan menerima 60.000 email karena sudoku yang disajikan ternyata mempunyai solusi lebih dari satu.</p>
+
+<p>Lalu "sudoku craze" pun menjalar ke segala penjuru dunia, 222 tahun setelah "Latin Square". Wayne Gould, sendirian saja menyuplai ke 140 surat kabar dunia. Belum lagi master-master sudoku lain yang terus bermunculan. Koran-koran Inggris: Daily Mail, Telegraph, Times, Guardian, dan Independent, masing-masing menerbitkan kumpulan soal-soal sudoku dalam beberapa seri buku. Di Amerika Serikat buku-buku Sudoku masuk "top ten best seller". Di amazon.com, toko buku online terbesar, ada 314 judul buku Sudoku. Hanya di Inggris, dua juta buku sudoku terjual dalam kurun waktu kurang dari setahun (Reuters, 22 Oktober 2005).</p>
+
+<p>Internet pun semakin ramai. Situs-situs baru bermunculan, menyajikan soal sudoku maupun informasi lain, baik sejarah, cara-cara penyelesaian, bahkan software untuk komputer maupun handphone. Jika tahun 2005 kita ketikkan "sudoku" di Yahoo atau Google, hasil pencarian yang diberikan hanya puluhan. Pada tanggal 11 April 2006, Yahoo merespons hampir 36 juta, sedang Google memberi hasil pencarian lebih dari 93 juta untuk sudoku. Dan sekarang tentunya masih terus bertambah.</p>
+
+<p>Daya tarik Sudoku adalah kesederhanaannya. Pemain hanya mengisi setiap sel dengan angka 1 sampai 9 tanpa tertulis dua kali dalam lajur-lajur dan kotak yang sama. Tidak ada penjumlahan atau hitungan apa pun.</p>
+
+<p>Dari berbagai sumber diperoleh data penyebaran awal sudoku khusus di Asia dimulai di Hindustan Times (India - Mei 2005), The Star (Malaysia - Juni 2005), Apple Daily (Hongkong - Agustus 2005), Sport Hankook (Korea Selatan - September 2005), News Paper (Singapura - Oktober 2005).</p>
+
+<p>Manfaat Permainan Sudoku 
+1.  Mengembangkan cara berpikir dan nalar yang benar sesuai dengan logika.</p>
+
+<ol>
+<li><p>Mempertajam anilisis kita dalam menyelesaikan suatu masalah</p></li>
+<li><p>Mengambil keputusan yang tepat berdasarkan analisis dan pertimbangan- pertimbangan fungsional</p></li>
+<li><p>Mengembangkan pola berfikir interdisipliner dalam menghadapi masalah</p></li>
+<li><p>Mengenal dan memehami proses – proses pengembangan konsep sudoku</p></li>
+<li><p>Melatih ketajaman, ketelitian dan kesabaran dalam menyelesaikan masalah</p></li>
+<li><p>Mengembangkan sikap mandiri dan cepat tanggap dalam menghadapi masalah berdasarkan logika yang benar</p></li>
+<li><p>Meningkatkan wawasan, kemampuan dan profesionalisme di berbagai bidang yang membutuhkan logika, penalaran dan analisis</p></li>
+<li><p>Mengembangkan diri secara mandiri sehingga dapat mengikuti  perkembangan ilmu pengetahuan secara global</p></li>
+<li><p>Melatih otak kiri kita yang bekerja secara sistematis</p></li>
+<li><p>Melatih otak kanan kita yang bekerja secara kreatif</p></li>
+<li><p>Untuk mengisi waktu luang dan sebagai sarana hiburan ataupun hobi yang bermanfaat dalam mempertajam otak
+Aturan Main Sudoku </p></li>
+</ol><p>Sudoku di mainkan dalam 3x3 kotak kecil yang (sel ) yang di sebut “area” :</p>
+
+<p>Sudoku biasanya di mulai dengan beberapa sel yang sudah terisi angka </p>
+
+<p>Tujuan permainan Sudoku adalah mengisi se-sel yang kosong dengan angka antara 1 dan 9 (etidaknya sel hanya 1 angka ) sesuai dengan petunjuk berikut 
+1.  Angka hanya dapat muncul sekali dalam setiap baris 
+Boleh          </p>
+
+<p>Tidak boleh<br>
+2.  Angka hanya dapat muncul sekali dalam setiap kolom </p>
+
+<pre><code>            Boleh                                       Tidak boleh 
 </code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/Indri-Widyarti">Indri-Widyarti</a></p>
